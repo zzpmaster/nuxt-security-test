@@ -1,0 +1,36 @@
+{
+    "cSpell.enabled": true,
+    "cSpell.customDictionaries": {
+      "spell-check-ignore": {
+        "name": "spell-check-ignore",
+        "path": "${workspaceFolder}/spell-check-ignore.dic",
+        "description": "Words used in this project",
+        "addWords": true
+      }
+    },
+    "cSpell.ignorePaths": [
+      "**/.git/objects/**",
+      "**/.git/subtree-cache/**",
+      "**/node_modules/*/**",
+      "**/plugins/*/**",
+      "**/platforms/*/**",
+      "**/custom_plugins/*/**",
+      "**/.vscode/**",
+      "*.json"
+    ],
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "cSpell.ignoreRegExpList": ["[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"],
+    "stylelint.validate": ["html", "css", "scss", "vue"],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.addMissingImports": "explicit",
+      "source.fixAll.stylelint": "explicit"
+    },
+    "css.validate": false,
+    "scss.validate": false,
+    "nuxt.isNuxtApp": false,
+  }
+  
